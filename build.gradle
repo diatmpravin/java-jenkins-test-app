@@ -18,7 +18,7 @@ dependencies {
 
 buildscript {
     repositories {
-        maven { url 'http://repo.spring.io/plugins-release' }
+        url "https://jcenter.bintray.com"
     }
     dependencies {
         classpath 'org.springframework.build.gradle:propdeps-plugin:0.0.7'
