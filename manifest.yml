@@ -3,6 +3,7 @@ applications:
   instances: 1
   memory: 256M
   disk_quota: 512M
+  timeout: 180
   path: build/libs/java-jenkins-test-app-1.0.war
   routes:
   - route: test.local.pcfdev.io
