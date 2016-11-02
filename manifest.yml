@@ -1,7 +1,7 @@
 applications:
 - name: test
   instances: 1
-  memory: 256M
+  memory: 512M
   disk_quota: 512M
   timeout: 180
   path: build/libs/java-jenkins-test-app-1.0.war
